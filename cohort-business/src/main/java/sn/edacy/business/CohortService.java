@@ -12,6 +12,7 @@ import sn.edacy.model.Talent;
 
 @Stateless
 public class CohortService {
+     private String prenom= "Harouna";
 
 	@PersistenceContext
 	private EntityManager entityManager;
